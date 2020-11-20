@@ -1,0 +1,243 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap');
+
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ body {
+ 	background-color: #292C34;
+ }
+
+ header {
+ 	background : white;
+ 	padding: 20px;
+ }
+
+ header > h1 {
+ 	color: #24272E;
+ 	text-align: center;
+ 	font-family: Asap, sans-serif;
+ }
+
+ .playButton {
+ text-decoration: none;
+  font-size: 80px;
+  color: white;
+  padding: 5px;
+ font-family: Asap, sans-serif;
+ margin-top:210px; 
+margin-left: 44%;
+ cursor: pointer;
+}
+
+.intro p {
+margin-top: 40px;
+	text-align:center;
+	font-family: Asap, sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 38px;
+
+}
+
+.intro h6 {
+margin-top: 10em;
+	text-align:center;
+	font-family: Asap, sans-serif;
+	color: white;
+	font-size: 20px;
+
+}
+
+
+.intro-picture {
+	margin-top: -40em;
+	margin-left: 0px;
+	position: fixed;
+	padding: 0px 0px;
+	float:left;
+
+}
+.intro-picture2 {
+	margin-top: -39em;
+
+}
+
+.credit {
+	margin-top: 260px;
+}
+
+
+
+.score-board {
+	margin: 20px auto;
+	border: 3px solid white;
+	border-radius: 4px;
+	text-align:center;
+	width: 200px;
+	color:white;
+	font-size: 46px;
+	padding: 15px 20px;
+	font-family: Asap, sans-serif;
+	position: relative;
+}
+
+.badge {
+	  border-radius: 10px;
+
+	background: #E2584D;
+	color:white;
+	font-size: 14px;
+	padding: 10px 20px;
+	font-family:Asap, sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+
+
+}
+
+#user-label {
+	position: absolute;
+	top: 25px;
+	left: -50px;
+}
+
+#computer-label {
+	position: absolute;
+	top: 25px;
+	right: -45px;
+}
+
+
+#result {
+	margin-top: 40px;
+	text-align:center;
+	font-family: Asap, sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 45px;
+}
+
+.hands {
+
+}
+
+.playerHand {
+margin-left: 32em;
+margin-top: 30px;
+}
+
+.computerHand {
+margin-left: 125px;
+margin-top: 25px;
+}
+
+.playerChoices {
+top:34em;
+margin-left: 28em;
+position: fixed;
+}
+
+.rock, .paper, .scissor {
+	display:inline-block;
+}
+
+.choices button {
+background-color: #292C34;
+border: 8px solid white;
+border-radius: 100%;
+margin: 0 20px;
+padding: 30px;
+transition: all 0.3s ease;
+outline:none;
+
+
+}
+
+.choices button:hover {
+cursor: pointer;
+background:red;
+}
+
+
+
+
+
+
+
+.shakehand {
+	position: relative;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-iteration-count:3;
+}
+
+
+@keyframes shakePlayer {
+		0% {
+		transform: translateY(0px);
+	}
+	15% {
+		transform: translateY(-50px);
+	}
+	25% {
+		transform: translateY(-0px);
+	}
+	35% {
+		transform: translateY(-50px);
+	}
+	45% {
+		transform: translateY(-0px);
+	}
+	55% {
+		transform: translateY(-50px);
+	}
+	65% {
+		transform: translateY(-0px);
+	}
+	75% {
+		transform: translateY(-50px);
+	}
+	85% {
+		transform: translateY(-0px);
+	}
+	100% {
+		transform: translateY(-50px);
+	}
+}
+
+@keyframes shakeComputer {
+	0% {
+		transform: translateY(0px);
+	}
+	15% {
+		transform: translateY(-50px);
+	}
+	25% {
+		transform: translateY(-0px);
+	}
+	35% {
+		transform: translateY(-50px);
+	}
+	45% {
+		transform: translateY(-0px);
+	}
+	55% {
+		transform: translateY(-50px);
+	}
+	65% {
+		transform: translateY(-0px);
+	}
+	75% {
+		transform: translateY(-50px);
+	}
+	85% {
+		transform: translateY(-0px);
+	}
+	100% {
+		transform: translateY(-50px);
+	}
+}
